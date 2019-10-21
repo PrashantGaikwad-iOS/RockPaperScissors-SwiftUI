@@ -26,7 +26,7 @@ struct ContentView: View {
     var body: some View {
         
         ZStack {
-            LinearGradient(gradient: Gradient(colors:[.blue,.black,.blue]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
+            LinearGradient(gradient: Gradient(colors:[.purple,.black,.primary]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all)
             
             VStack(spacing:50) {
                 Text("Rock Paper Scissors")
